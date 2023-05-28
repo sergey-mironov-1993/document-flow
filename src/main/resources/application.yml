@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/javatechie
+    driver-class-name: org.postgresql.Driver
+    username: alexey
+    password: Metallica1983
+  servlet:
+    multipart:
+      max-request-size: 500MB
+      max-file-size: 500MB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        format_sql: true
+        types.print.banner: false
+    open-in-view: false
+
+server:
+  port: 9090
+  error:
+    include-stacktrace: never
+
+key:
+  jwt_secret: SECRET

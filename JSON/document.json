@@ -1,0 +1,81 @@
+{
+  "documentName": "Акт какой-то",
+  "documentNumber": "2347-dfs",
+  "comments": [
+    {
+      "text": "Коммент для дока 1"
+    },
+    {
+      "text": "Коммент для дока 2"
+    }
+  ],
+  "contractor": {
+    "firstName": "Алексей",
+    "lastName": "Гнездилов",
+    "patronymic": "Юрьевич",
+    "phoneNumber": "89087740644",
+    "telegram": "@Alexey_Gnezdilov",
+    "email": "vovovo3000@mail.ru",
+    "country": "Russia",
+    "comments": [
+      {
+        "text": "Коммент от контрагента 1"
+      },
+      {
+        "text": "Коммент от контрагента 2"
+      }
+    ],
+    "credential": {
+      "text": "Credential text",
+      "version": "1.0",
+      "subjectType": "SELF_EMPLOYMENT",
+      "passport": "2513898578",
+      "birthdayDate": "24.08.1993",
+      "itn": "381205659050"
+    }
+  },
+  "documentTemplate": {
+    "templateName": "Отчётные доки",
+    "version": "1.2",
+    "comments": [
+      {
+        "text": "Коммент для шаблона 1"
+      },
+      {
+        "text": "Коммент для шаблона 2"
+      }
+    ],
+    "documentFields": [
+      {
+        "defaultValue": "шт/кг",
+        "fieldName": "Номер документа",
+        "fieldType": "NUMERIC",
+        "placeholder": "Введите номер документа"
+      },
+      {
+        "defaultValue": "000",
+        "fieldName": "ФИО юзера",
+        "fieldType": "SMALL_TEXT",
+        "placeholder": "Введите ФИО юзера"
+      }
+    ]
+  },
+  "user": {
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "patronymic": "Иванович",
+    "login": "user",
+    "password": "password",
+    "email": "test@mail.ru",
+    "telegram": "@test_user",
+    "role": "ADMIN",
+    "comments": [
+      {
+        "text": "Коммент пользователя 1"
+      },
+      {
+        "text": "Коммент пользователя 2"
+      }
+    ]
+  }
+}
