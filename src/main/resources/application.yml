@@ -2,8 +2,8 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/javatechie
     driver-class-name: org.postgresql.Driver
-    username: alexey
-    password: Metallica1983
+    username:
+    password:
   servlet:
     multipart:
       max-request-size: 500MB
